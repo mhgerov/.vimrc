@@ -20,6 +20,8 @@ Plugin 'tpope/vim-sensible'
 Plugin 'mattn/emmet-vim'
 Plugin 'scrooloose/nerdtree'
 Plugin 'Valloric/YouCompleteMe'
+Plugin 'pangloss/vim-javascript'
+Plugin 'mxw/vim-jsx'
 "------End Plugin Lines---------------- 
 call vundle#end()            " required
 filetype plugin indent on    " required
@@ -37,10 +39,10 @@ filetype plugin indent on    " required
 "
 "
 "Custom by mhgerov
-set tabstop=4
+set tabstop=2
 set softtabstop=0
 set noexpandtab
-set shiftwidth=4
+set shiftwidth=2
 set number relativenumber
 set splitright
 set splitbelow
@@ -50,3 +52,4 @@ set mouse=a
 
 let g:ycm_server_python_interpreter = 'python2'
 
+autocmd BufNewFile,BufRead *.handlebars set syntax=html
