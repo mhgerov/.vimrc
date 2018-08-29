@@ -34,6 +34,7 @@ Plugin 'tpope/vim-sensible'
 Plugin 'scrooloose/nerdtree'
 " Great for general HTML/XML tags
 Plugin 'mattn/emmet-vim'
+Bundle 'gabrielelana/vim-markdown'
 
 "-----Javascript Development-----
 "Plugin 'pangloss/vim-javascript'
